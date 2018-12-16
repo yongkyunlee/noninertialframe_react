@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 
 # testing
 /coverage
@@ -9,8 +10,13 @@
 # production
 /build
 
+# firebase hosting
+.firebasrc
+firebase.json
+
 # misc
 .DS_Store
+.env
 .env.local
 .env.development.local
 .env.test.local
