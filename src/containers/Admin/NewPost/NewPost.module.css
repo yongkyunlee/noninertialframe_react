@@ -1,0 +1,24 @@
+.newPostTitle {
+    margin-top: 10em;
+    margin-bottom: 1em;
+}
+
+.newPostInfoInput {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+.infoItem {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+.postInfoForm {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.postSummaryForm {
+    margin-top: 0.7em;
+    font-size: 1em;
+}

@@ -1,0 +1,14 @@
+.uploadDiv {
+    margin-top: 2em;
+}
+
+.uploadButton {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.3em 1.1em 0.3em 1.1em;
+}

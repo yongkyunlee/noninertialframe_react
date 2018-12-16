@@ -11,8 +11,9 @@ package-lock.json
 /build
 
 # firebase hosting
-.firebasrc
+.firebaserc
 firebase.json
+.firebase/
 
 # misc
 .DS_Store

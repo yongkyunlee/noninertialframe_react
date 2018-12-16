@@ -1,0 +1,34 @@
+.languageSelect {
+    text-align: right;
+}
+
+.languageOption {
+    padding-left: 1em;
+    padding-right: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #C0C0C0;
+}
+
+.languageOption:hover {
+    cursor: pointer;
+    color: #696969;
+}
+
+.languageOn {
+    color: #696969;
+}
+
+@media screen and (max-width: 650px) {
+    .languageSelect {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .languageOption {
+        font-size: 0.9em;
+    }
+}

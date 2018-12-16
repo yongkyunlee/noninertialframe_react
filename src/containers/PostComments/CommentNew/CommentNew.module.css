@@ -1,0 +1,135 @@
+.commentInputSection {
+    padding-bottom: 2.2em;
+}
+
+.commentNicknameInput {
+    font-size: 1.2em;
+    padding-bottom: 0.7em;
+    width: 70%;
+}
+
+.contentInputForm {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.commentInfoInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.3em;
+    font-size: 1.2em;
+}
+
+.commentEmailInput {
+    flex: 0 42.5%;
+}
+
+.commentPasswordInput {
+    flex: 1 42.5%;
+}
+
+.commentInputSubmit {
+    flex: 2 15%;
+    text-align: right;
+}
+
+.commentInfoForm {
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    width: 60%;
+    margin-left: 1.1em;
+    font-size: 0.9em;
+}
+
+.commentSubmitBtn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.3em 1.1em 0.3em 1.1em;
+}
+
+.emailWarning {
+    font-size: 0.8em;
+    vertical-align: text-top;
+}
+
+.commentSubmitBtn:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .commentInputSection {
+        padding-bottom: 1.8em;
+    }
+    .commentInfoInput {
+        display: block;
+        align-items: center;
+        margin-bottom: 0.3em;
+        font-size: 1.2em;
+    }
+    .commentNicknameInput {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 0.5em;
+    }
+    .commentEmailInput {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 0.5em;
+    }
+    .commentPasswordInput {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-bottom: 0.5em;
+    }
+    .commentInfoLabel {
+        flex: 0 4.5em;
+    }
+    .commentInfoForm {
+        flex: 1;
+    }
+    .commentInputSubmit {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0.2em;
+    }
+    .commentSubmitBtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .commentNicknameInput {
+        font-size: 1em;
+    }
+    .commentEmailInput {
+        font-size: 1em;
+    }
+    .commentPasswordInput {
+        font-size: 1em;
+    }
+    .commentInfoInput {
+        font-size: 1em;
+    }
+    .contentInputForm {
+        font-size: 1em;
+    }
+}

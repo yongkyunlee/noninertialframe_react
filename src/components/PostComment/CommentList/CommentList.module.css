@@ -1,0 +1,114 @@
+.commentItem {
+    margin-bottom: 2em;
+}
+
+.commentHeader {
+    padding-bottom: 0.8em;
+    display: flex;
+}
+
+.commentInfo {
+    flex: 0 80%;
+}
+
+.commentControls {
+    flex: 1;
+    text-align: right;
+}
+
+.commentNickname {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-right: 0.8em;
+    display: inline-block;
+}
+
+.commentDate {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding-right: 1em;
+    display: inline-block;
+}
+
+.commentContent {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    display: inline-block;
+    line-height: 1.8;
+    white-space: pre-line;
+}
+
+.commentContentDelete {
+    margin-bottom: 1em;
+}
+
+.commentControls {
+    font-size: 1.2em;
+    display: inline-block;
+    color: #C0C0C0;
+}
+
+.editControl {
+    margin-right: 1em;
+}
+
+.editControl:hover, .deleteControl:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.commentVerification {
+    display: flex;
+    margin-top: 1em;
+}
+
+.commentModifyEmail {
+    font-size: 1em;
+    flex: 0 35%;
+}
+
+.commentModifyPassword {
+    font-size: 1em;
+    flex: 1 30%;
+}
+
+.commentModifyForm {
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    width: 60%;
+    margin-left: 1.1em;
+    font-size: 1.1em;
+}
+
+.commentChangeBtn {
+    flex: 1 25%;
+    text-align: right;
+}
+
+.commentChangeConfirm, .commentChangeCancel {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.3em 0.9em 0.3em 0.9em;
+}
+
+.commentChangeConfirm {
+    margin-right: 1em;
+}
+
+.commentEditForm {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1em
+}
+

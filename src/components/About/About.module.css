@@ -1,0 +1,87 @@
+.title {
+    font-size: 1.8em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding: 0 0 0.3em 0;
+    margin: 0;
+}
+
+.section {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.sectionTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+.subSection {
+    margin: 0;
+}
+
+.subSectionTitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin: 0;
+    padding-top: 0.3em;
+}
+
+.link {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #C0C0C0;
+}
+
+.infoTable {
+    margin-bottom: 2.5em;
+}
+
+.infoTd {
+    padding-right: 2.2em;
+    padding-bottom: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    .section {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .title {
+        font-size: 1.3em;
+    }
+
+    .sectionTitle {
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+
+    .subSectionTitle {
+        font-size: 1em;
+    }
+
+    .subSectionDate {
+        font-size: 0.8em;
+    }
+
+    .subSection {
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .subSectionContent {
+        font-size: 0.9em;
+    }
+
+    .infoTd {
+        font-size: 0.9em;
+    }
+}

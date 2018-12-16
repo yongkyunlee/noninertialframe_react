@@ -1,0 +1,62 @@
+.postSection {
+    padding-bottom: 1.5em;
+}
+
+.postTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+.postTitle:hover {
+    cursor: pointer;
+}
+
+.postEditSection {
+    font-size: 1em;
+    padding-top: 0.5em;
+}
+
+.infoItem {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+.postInfoForm {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+.postSummaryForm {
+    margin-top: 0.7em;
+    font-size: 1em;
+}
+
+.contentLanguage {
+    margin-left: 1em;
+    color: #C0C0C0;
+}
+
+.contentLanguage:hover {
+    color: #696969;
+    cursor: pointer;
+}
+
+.languageOn {
+    color: #696969
+}
+
+.uploadDiv {
+    margin-top: 2em;
+}
+
+.uploadButton {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0.3em 1.1em 0.3em 1.1em;
+}

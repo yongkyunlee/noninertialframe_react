@@ -1,0 +1,27 @@
+textarea {
+    resize: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    width: 100%;
+}
+
+.commentSecTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.6em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.commentNum {
+    font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+    .commentSecTitle {
+        padding-top: 0;
+        font-size: 1.2em;
+    }
+}
